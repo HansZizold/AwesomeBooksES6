@@ -25,7 +25,7 @@ The DOM is dynamically modified according to the addings and removings operation
 
 ## LIVE DEMO: 
 
-[Awesome Books Project](https://hanszizold.github.io/Awesome_Books/)
+[Awesome Books Project](https://hanszizold.github.io/AwesomeBooksES6/)
 
 ## Getting Started
 
