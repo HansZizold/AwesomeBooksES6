@@ -108,8 +108,18 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px;
+  margin: 0 30px;
   border: #000 1px solid;
+}
+
+.datetime {
+  margin-right: 32px;
+  margin-bottom: 8px;
+  text-align: right;
+}
+
+.datetimetext {
+  font-weight: bold;
 }
 
 .footer {
