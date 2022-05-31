@@ -1,18 +1,18 @@
 // Import class 'Book'
-import { Book } from './modules/book.js';
+import Book from './modules/book.js';
 
 // show the book list using the method 'showmybooks' imported from showmybooks.js
-import { showMyBooks } from './modules/showMyBooks.js';
+import showMyBooks from './modules/showMyBooks.js';
 
 // show the add book section using the method 'addnewBook' imported from addNewBook.js
-import { addNewBook } from './modules/addNewBook.js';
+import addNewBook from './modules/addNewBook.js';
 
 // show the contact section using the method 'contact' imported from contact.js
-import { contact } from './modules/contact.js';
+import contact from './modules/contact.js';
 
 // show the date and time using the function 'timeDateInterval' imported from
 // datetime.js
-import { timeDateInterval } from './modules/datetime.js';
+import timeDateInterval from './modules/datetime.js';
 
 const form = document.querySelector('#senddata');
 const getmylibrary = JSON.parse(localStorage.getItem('mylibrary'));

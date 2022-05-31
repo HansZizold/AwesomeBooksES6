@@ -1,4 +1,3 @@
-/* eslint-disable import/prefer-default-export */
 const title = document.querySelector('.title');
 const author = document.querySelector('.author');
 const ullibrary = document.querySelector('.ullibrary');
@@ -9,7 +8,7 @@ const book = ({ title, author, index }) => `
   <button class="removebook" id="removebook" value="Add Book">Remove</button>
 </li>`;
 
-export class Book {
+class Book {
   constructor() {
     this.bookList = [];
   }
@@ -52,3 +51,5 @@ export class Book {
     localStorage.setItem('mylibrary', JSON.stringify(this.bookList));
   }
 }
+
+export default Book;
